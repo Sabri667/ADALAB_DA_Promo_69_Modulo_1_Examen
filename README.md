@@ -1,4 +1,4 @@
-# ✨ TiendaOnline · Gestión de Inventario Profesional
+# ✨ TiendaOnline · Gestión de Inventario
 
 > **Documentación** – Sistema completo para la administración de productos, stock y valoración de inventario.
 
@@ -21,13 +21,8 @@ Añade un nuevo producto o actualiza el stock si ya existe.
 | Parámetro  | Tipo    | Descripción                          |
 |------------|---------|--------------------------------------|
 | `nombre`   | `str`   | Identificador único del producto     |
-| `precio`   | `float` | Precio unitario en dólares (€)         |
+| `precio`   | `float` | Precio unitario en dólares ($)         |
 | `cantidad` | `int`   | Unidades a añadir (stock inicial o extra) |
-
-### `ver_inventario()`
-Muestra en consola el listado completo con formato:
-
-VER DE INCLUIR FORMATO O.... REEMPLAZAR POR VERSIÓN MÁS BREVE
 
 ### `ver_inventario()`
 Muestra en consola todos los productos con su nombre, precio y cantidad.
