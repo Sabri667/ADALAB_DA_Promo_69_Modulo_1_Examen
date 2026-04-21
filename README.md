@@ -65,7 +65,7 @@ tienda.ver_inventario()
 
 # Buscar un producto
 tienda.buscar_producto("Camisa")
-# Salida: Nombre: Camisa, Precio: €$0, Cantidad: 40
+# Salida: Nombre: Camisa, Precio: $0, Cantidad: 40
 
 # Actualizar stock (vender 2 camisas)
 tienda.actualizar_stock("Camisa", -2)
